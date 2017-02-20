@@ -2,7 +2,12 @@
 	<footer>
 		<div class="container">
 			<div class="row col-md-12">
-				LOGOS DES CAISSES A AJOUTER (Marion, à placer dans le footer ?)
+				LOGOS DES CAISSES A AJOUTER 
+			</div>
+		</div>
+		<div class="container">
+			<div class="row col-md-12">
+				LOGOS DES CAISSES A AJOUTER 
 			</div>
 		</div>
 <!--Col Gauche presse-->

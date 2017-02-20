@@ -6,15 +6,21 @@
 					<!--Mettre le lien pour la page accueil et mettre dans img le logo cnavpl-->
 					<a href="index.php"><img src="assets/img/logocnavpl.jpg" class="img-responsive"></a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-1 col-md-offset-4">
 					<!--Creation de la recherche avec animation et dans img mettre icon recherche-->
-					<a href="#"><img src="assets/img/icon/recherche.png" class="img-responsive" ></a>
+					<div class="container">
+					    <form class="searchbox">
+					        <input type="search" placeholder="Rechercher......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+					        <input type="submit" class="searchbox-submit">
+					        <span class="searchbox-icon"><img src="assets/img/icon/recherche.png" ></span>
+					    </form>
+					</div>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-1">
 					<!--Mettre le lien pour la page actualités et dans img mettre icon actualité-->
 					<a href="actualite.php"><img src="assets/img/icon/actualite.png" class="img-responsive"></a>
 				</div>
-				<div class="container col-md-2">
+				<div class="container col-md-1">
 					<!--Mettre le lien pour la page inscription newsletter et dans img mettre icon newsletter-->
 					<button type="button" data-toggle="modal" data-target="#myModal"><a href="#" ><img src="assets/img/icon/newsletter.png" class="img-responsive" ></a></button>
 							<!-- Modal -->
@@ -47,7 +53,7 @@
 					</form>
 				</div>
 
-				<div class="col-md-2">
+				<div class="col-md-1">
 					<!--Mettre le lien pour la page contact et dans img mettre icon contact-->
 					<a href="contact.php"><img src="assets/img/icon/contact.png" class="img-responsive"></a>
 				</div>

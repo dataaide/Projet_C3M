@@ -1,0 +1,28 @@
+/*STYLE HEADER*/
+nav{
+	background-color: #003366;
+	padding: 0px;
+}
+
+nav > li {
+    display: inline-block;
+  }
+  
+.iconAccueil{
+	width: 10%;
+}
+
+/*STYLE FOOTER*/
+.footer-bas{
+	background-color: #003366;
+}
+
+
+.container-fluid{
+	padding: 0px 0px;
+}
+
+/*AJOUT MARJO : 
+- j'ai ajouté une class "footer-bas" dans la DIV "row" du Footer
+ pour pouvoir ajouter une 2eme DIV "row" avec les logos des Caisses dans le FOOTER 
+ sans avoir le même dans cette DIV (mais on dirait que le code CSS que j'ajoute ne marche pas).*/

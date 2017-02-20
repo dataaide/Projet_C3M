@@ -63,7 +63,7 @@
 						<a href="index.php"><img src="assets/img/icon/accueil.png" class="img-responsive"></a>
 					</li>
         			<!--Qui sommes nous-->
-        			<li ><a href="#">Qui sommes-nous ?</a>
+        			<li ><a href="qui-sommes-nous.php">Qui sommes-nous ?</a>
                 		<ul>
                 		<!--<li><a href="#">Présentation de la Cnavpl</a></li>
                   			<li><a href="#">Nos missions</a></li> -->

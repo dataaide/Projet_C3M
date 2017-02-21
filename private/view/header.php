@@ -54,45 +54,47 @@
 			</div>
 		</div>
 <!--CREATION DU MENU-->
-		<nav class="navbar">
+		<nav>
   			<div class="container">
-			   <div class="row">
-      			<ul class="nav navbar-nav">
-					  <!--Icon accueil-->
-					<li class="active">
-						<a href="index.php"><img src="assets/img/icon/accueil.png" class="img-responsive"></a>
-					</li>
-        			<!--Qui sommes nous-->
-        			<li ><a href="#">Qui sommes-nous ?</a>
-                		<ul>
-                		<!--<li><a href="#">Présentation de la Cnavpl</a></li>
-                  			<li><a href="#">Nos missions</a></li> -->
-              			</ul>
-        			</li>
+			    <div class="row">
+			   		<div class="col-md-12">
+		      			<ul class="nav navbar-nav">
+							  <!--Icon accueil-->
+							<li class="active">
+								<a href="index.php"><img src="assets/img/icon/accueil.png" class="img-responsive"></a>
+							</li>
+		        			<!--Qui sommes nous-->
+		        			<li ><a href="#">Qui sommes-nous ?</a>
+		                		<ul>
+		                		<!--<li><a href="#">Présentation de la Cnavpl</a></li>
+		                  			<li><a href="#">Nos missions</a></li> -->
+		              			</ul>
+		        			</li>
 
-        			<!--La retraite des libéraux-->
-        			<li><a href="#">La retraite des libéraux</a>
-			          <ul>
-			            <!--<li><a href="#">Définitions</a></li>
-			            <li><a href="#">Le régime de base</a></li>
-			            <li><a href="#">Les régimes complémentaires </a></li> --> 
-			          </ul>     
-			        </li>
+		        			<!--La retraite des libéraux-->
+		        			<li><a href="#">La retraite des libéraux</a>
+					          <ul>
+					            <!--<li><a href="#">Définitions</a></li>
+					            <li><a href="#">Le régime de base</a></li>
+					            <li><a href="#">Les régimes complémentaires </a></li> --> 
+					          </ul>     
+					        </li>
 
-		            <!--Chiffres clés -->
-		            <li><a href="#">Chiffres clés</a>
-		                <ul>
-		                 <!-- <li><a href="#">Préparer sa retraite</a></li> -->
-		                 <!-- <li><a href="#">Cas particuliers</a></li> -->
-		                </ul>
-		            </li>
+				            <!--Chiffres clés -->
+				            <li><a href="#">Chiffres clés</a>
+				                <ul>
+				                 <!-- <li><a href="#">Préparer sa retraite</a></li> -->
+				                 <!-- <li><a href="#">Cas particuliers</a></li> -->
+				                </ul>
+				            </li>
 
-		            <!--Informations pratiques -->		            
-              		<li><a href="#">Informations pratiques</a>
-              		</li>
-                   
-          		</ul>
-          	</div> 
-		</div>        
+				            <!--Informations pratiques -->		            
+		              		<li><a href="#">Informations pratiques</a>
+		              		</li>
+		                   
+		          		</ul>
+		          	</div>
+          		</div> 
+			</div>        
 		</nav>
 	</header>

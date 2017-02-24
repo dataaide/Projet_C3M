@@ -14,7 +14,7 @@
 					</div>
 	<!--Col Centre menu footer-->
 					<div class="col-md-4">
-						<ul>
+						<ul class="menu-footer">
 							<li><a href="">Publications</a></li>
 							<li><a href="">Marchés publics</a></li>
 							<li><a href="">Liens utiles</a></li>
@@ -25,7 +25,7 @@
 	<!--Col Droite reseaux sociaux-->
 					<div class="col-md-4">
 						<h4>Nous suivre</h4>
-							<ul>
+							<ul class="reseaux-sociaux">
 							<!--Icon facebook avec lien vers leur page facebook-->
 								<li><a href="#"><img src="assets/img/icon/facebook.png" class="img-responsive"></a></li>
 							<!--Icon facebook avec lien vers leur page twitter-->

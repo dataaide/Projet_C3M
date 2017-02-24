@@ -8,15 +8,15 @@
 				</div>
 				<div class="col-md-2">
 					<!--Creation de la recherche avec animation et dans img mettre icon recherche-->
-					<a href="#"><img src="assets/img/icon/recherche.png" class="img-responsive" ></a>
+					<a href="#"><img src="assets/img/icon/recherche.svg" class="img-responsive" ></a>
 				</div>
 				<div class="col-md-2">
 					<!--Mettre le lien pour la page actualités et dans img mettre icon actualité-->
-					<a href="actualite.php"><img src="assets/img/icon/actualite.png" class="img-responsive"></a>
+					<a href="actualite.php"><img src="assets/img/icon/actualite.svg" class="img-responsive"></a>
 				</div>
 				<div class="container col-md-2">
 					<!--Mettre le lien pour la page inscription newsletter et dans img mettre icon newsletter-->
-					<button type="button" data-toggle="modal" data-target="#myModal"><a href="#" ><img src="assets/img/icon/newsletter.png" class="img-responsive" ></a></button>
+					<button type="button" data-toggle="modal" data-target="#myModal"><a href="#" ><img src="assets/img/icon/newsletter.svg" class="img-responsive" ></a></button>
 							<!-- Modal -->
 					<form method="GET" action="">
 					  <div class="modal fade" id="myModal" role="dialog">
@@ -54,47 +54,53 @@
 			</div>
 		</div>
 <!--CREATION DU MENU-->
-		<nav>
-  			<div class="container">
-			    <div class="row">
-			   		<div class="col-md-12">
-		      			<ul class="nav navbar-nav">
-							  <!--Icon accueil-->
-							<li class="active">
-								<a href="index.php"><img src="assets/img/icon/accueil.png" class="img-responsive"></a>
-							</li>
-		        			<!--Qui sommes nous-->
-		        			<li ><a href="#">Qui sommes-nous ?</a>
-		                		<ul>
-		                		<!--<li><a href="#">Présentation de la Cnavpl</a></li>
-		                  			<li><a href="#">Nos missions</a></li> -->
-		              			</ul>
-		        			</li>
+		<nav class="navbar">
+	  		<div class="container">
+	    		<!-- MENU HAMBURGER-->
+	    		<div class="navbar-header">
+	      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        		<span class="sr-only">Toggle navigation</span>
+	       			<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	      			</button>
+	    		</div>		
+	    		<!--Les liens de navigation pour basculer en hamburger-->
+	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      			<ul class="nav navbar-nav">
+	      				<li >
+							<a href="index.php"><!-- <img src="assets/img/icon/accueil-cnavpl.svg" class="img-responsive icon-accueil-cnavpl"> --> Accueil</a>
+						</li>
+			        	<!--Qui sommes nous-->
+			        	<li ><a href="">Qui sommes-nous ?</a>
+			                <ul class="dropdown-menu">
+			                	<li><a href="">Présentation de la Cnavpl</a></li>
+			                  	<li><a href="">Nos missions</a></li>
+			              	</ul>
+			        	</li>
 
-		        			<!--La retraite des libéraux-->
-		        			<li><a href="#">La retraite des libéraux</a>
-					          <ul>
-					            <!--<li><a href="#">Définitions</a></li>
-					            <li><a href="#">Le régime de base</a></li>
-					            <li><a href="#">Les régimes complémentaires </a></li> --> 
-					          </ul>     
-					        </li>
+			        	<!--La retraite des libéraux-->
+			        	<li><a href="">La retraite des libéraux</a>
+						    <ul class="dropdown-menu">					    
+						        <li><a href="#">Définitions</a></li>
+						        <li><a href="">Le régime de base</a></li>
+						        <li><a href="">Les régimes complémentaires </a></li>
+						    </ul>     
+						</li>
 
-				            <!--Chiffres clés -->
-				            <li><a href="#">Chiffres clés</a>
-				                <ul>
-				                 <!-- <li><a href="#">Préparer sa retraite</a></li> -->
-				                 <!-- <li><a href="#">Cas particuliers</a></li> -->
-				                </ul>
-				            </li>
+					    <!--Chiffres clés -->
+					    <li><a href="">Chiffres clés</a>
+					       	<ul class="dropdown-menu">
+					            <li><a href="">Préparer sa retraite</a></li>
+					            <li><a href="">Cas particuliers</a></li> 
+					        </ul>
+					    </li>
 
-				            <!--Informations pratiques -->		            
-		              		<li><a href="#">Informations pratiques</a>
-		              		</li>
-		                   
-		          		</ul>
-		          	</div>
-          		</div> 
-			</div>        
+					    <!--Informations pratiques -->		            
+			            <li><a href="#">Informations pratiques</a><!-- <span class="effet-menu"> --></span></li>
+
+	      			</ul>
+	      		</div>	
+	      	</div>
 		</nav>
 	</header>

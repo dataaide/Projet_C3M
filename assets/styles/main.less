@@ -1,22 +1,110 @@
-// Variables
-@bleu-fonce:#003366;
+/* GOOGLE FONT */ 
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700|Raleway:400,700');
 
-/*STYLE HEADER*/
+/* DECLARATIONS VARIABLES COULEURS */ 
+@bleu-fonce: #013B60;
+@bleu-clair: #0094AB;
+@turquoise: #00FFE0;
+@gris-claire: #ECF0F1;
+
+
+/* STYLE GENERAL */
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+}
+
+/* STYLE HEADER */
+.icon-accueil-cnavpl{
+	height: 50px;
+
+}
+
+
 nav{
 	background-color: @bleu-fonce;
 	padding: 0px;
+	height: 10%;
+	text-align: center;
+	}
+	.navbar{
+    	width: 100%;
+    	text-align: center;
+    	float: none;
+    	display: inline-block;
+    	border-radius: 0px;
+    		li {
+      			float: none;
+      			display: inline-block;
+      			text-transform: uppercase;
+      			position: relative;
+      			text-align: center;
+      				a{
+      					color: @gris-claire;
+      						&:hover{
+      							color :@turquoise;
+      							background-color: @bleu-fonce;
+      							border-bottom: @turquoise solid 3px;
 
-	li {
-	    display: inline-block;
-	  }
- }
-/*STYLE FOOTER*/
+      						}
+      				}
+    		}
+  		}
+
+/* COULEUR DES BARRES DU HAMBURGER
+	Peaufinage a faire 
+*/
+.icon-bar{
+  background:#a3bfc6 !important;
+}
+
+/* J'ai essayer de faire un effet sur le menu au passage de sourie, le resultat n'est pas TOP ENCORE!!!
+
+
+.effet-menu{
+  display:block;
+  position:absolute;
+  width:0%;
+  height:100%;
+  top:0px;
+  left:0px;
+  border-bottom: @turquoise solid 3px;
+  z-index:0;
+  opacity:0;
+}*/
+
+.navbar-nav > li > a:focus{
+	color :@turquoise;
+    background-color: @bleu-fonce;
+    border-bottom: @turquoise solid 3px;
+}
+
+
+
+/* STYLE FOOTER */
 .footer-bas {
 	background-color: @bleu-fonce;
+	li{
+		list-style-type: none;
+      	float: none;
+      	text-transform: uppercase;
+      	padding: 5px;
+      	margin: 5px;
+      	text-align: center;
+		a{
+      		color: @gris-claire;
+      		text-decoration: none;
+		}
+	}
+}
+.reseaux-sociaux{
+	display: inline;
 }
 
 
 .container-fluid{
 	padding: 0px 0px;
 }
-

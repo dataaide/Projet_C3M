@@ -50,7 +50,7 @@ INSERT INTO `caisse_contact` (`id`, `nomCourt`, `nomLong`, `cheminLogo`) VALUES
 (7, 'cavom', 'Caisse d’assurance vieillesse des officiers ministériels, des officiers publics et des compagnies judiciaires', ''),
 (8, 'cavp', 'Caisse d\'assurance vieillesse des pharmaciens', ''),
 (9, 'cipav', 'Caisse interprofessionnelle de prévoyance et d\'assurance vieillesse', ''),
-(10, 'crn', 'Caisse interprofessionnelle de prévoyance et d\'assurance vieillesse', '');
+(10, 'crn', 'Caisse de retraite des notaires', '');
 
 --
 -- Index pour les tables exportées

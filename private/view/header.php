@@ -6,7 +6,7 @@
 					<!--Mettre le lien pour la page accueil et mettre dans img le logo cnavpl-->
 					<a href="index.php"><img src="assets/img/logocnavpl.jpg" class="img-responsive"></a>
 				</div>
-				<div class="col-md-3 col-md-offset-2">
+				<div class="col-md-offset-2 col-md-2 ">
 					<!--Creation de la recherche avec animation et dans img mettre icon recherche-->
 					<div class="search-container">
 						<div class="search-box">

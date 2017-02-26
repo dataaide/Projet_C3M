@@ -1,18 +1,40 @@
 <!--CREATION DE MON FOOTER-->
 	<footer>
 		<div class="container">
+		 	<div class="modal fade" id="modal-caisse" role="dialog">
+			    <div class="modal-dialog modal-lg">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h4 class="modal-title">Info Caisse</h4>
+			        </div>	
+			        <div class="modal-body">				   
+				        
+				    </div>
+				    <div class="modal-footer">
+				          
+			        </div>
+			      </div>
+			    </div>
+			</div>
 			<div class="row col-md-12">
-				LOGOS DES CAISSES A AJOUTER 
+				<div class="col-md-offset-1 col-md-2 footer-caisse" data-id="cardsf" data-toggle="modal" data-target="#modal-caisse">CARDSF</div>
+				<div class="col-md-2 footer-caisse" data-id="carmf" data-toggle="modal" data-target="#modal-caisse">CARMF</div>
+				<div class="col-md-2 footer-caisse" data-id="carpimko" data-toggle="modal" data-target="#modal-caisse">CARPIMKO</div>
+				<div class="col-md-2 footer-caisse" data-id="carpv" data-toggle="modal" data-target="#modal-caisse">CARPV</div>
+				<div class="col-md-2 col-md-offset-1 footer-caisse" data-id="cavamac" data-toggle="modal" data-target="#modal-caisse">CAVAMAC</div>
+				
+				<div class="col-md-offset-1 col-md-2 footer-caisse" data-id="cavec" data-toggle="modal" data-target="#modal-caisse">CAVEC</div>
+				<div class="col-md-2 footer-caisse" data-id="cavom" data-toggle="modal" data-target="#modal-caisse">CAVOM</div>
+				<div class="col-md-2 footer-caisse" data-id="cavp" data-toggle="modal" data-target="#modal-caisse">CAVP</div>
+				<div class="col-md-2 footer-caisse" data-id="cipav" data-toggle="modal" data-target="#modal-caisse">CIPAV</div>
+				<div class="col-md-2 col-md-offset-1 footer-caisse" data-id="crn" data-toggle="modal" data-target="#modal-caisse">CRN</div>				
 			</div>
 		</div>
-		<div class="container">
-			<div class="row col-md-12">
-				LOGOS DES CAISSES A AJOUTER 
-			</div>
-		</div>
+		
 <!--Col Gauche presse-->
 		<div class="footer-bas">
-			<div class="container"
+			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
 						<a href="#">Espace presse<img src=""></a>
